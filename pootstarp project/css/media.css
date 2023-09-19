@@ -1,0 +1,34 @@
+/* @media(min-width:576px) small screen */
+/* @media(min-width:768px) tablate screen */
+/* @media(min-width:992px) large screen */
+/* @media(min-width:1200px) Xlarge screen */
+
+
+/***** Iphone******/
+@media(max-width:768px){
+    header h1{
+        font-size: 16px;
+        left: 15%;
+    }
+    header{
+        height: 300px;
+    }
+    .card{width: 100% !important;}
+
+    footer .links{
+        margin: 20px 0;
+    }
+
+
+}
+
+/***** Ipad ******/
+@media(width:768px){
+    header h1{
+        font-size: 30px;
+    }
+
+
+}
+
+ 

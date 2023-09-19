@@ -1,0 +1,72 @@
+/* *********************navbar************* */
+.navbar-brand{color: red !important;}
+.navbar-brand:hover{color: #fff !important;}
+.nav-link{font-size: 20px;}
+/* ********************header*************** */
+header{
+    background-image: url('../img/code6.jpg');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    color: #fff;
+}
+/* *************************about section********************** */
+.about{padding: 80px 0; background-color: #eee;}
+.about p{padding: 30px 0;}
+.line{width: 7%; height: 3px; background-color: red; margin: auto;}
+.about button{border-radius: 50px 80px;}
+
+/* *****************************services************** */
+.services{padding:80px 0 ;}
+ .services .line{margin-bottom: 30px;}
+ /* ***********************state****************** */
+ .state{
+    background-color: red; color: #fff; padding: 80px 0; 
+
+ }
+ .state .line{background-color: #fff; margin-bottom: 30px;}
+ .state i{font-size: 35px; padding-bottom: 20px;}
+ .state h5, .state span{font-size: 25px; font-weight: bold;}
+ /* **************************clients****************** */
+ .client{
+    padding: 100px 0 ;
+    background: url('../img/clients.jpg') no-repeat fixed; 
+    background-size: cover;
+    /* background-image: url('../img/clients.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    color: #fff;
+    position: relative;
+}
+.client .carousel-item  p{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:50px ;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.client .carousel-indicators{
+    position: absolute;
+    bottom: -23%;
+}
+/* ***************************contact***************** */
+.contact{
+    padding: 80px 0; 
+}
+.contact .line{
+    margin-bottom: 30px;
+
+}
+.contact button{width: 100%;}
+/* *****************************footer****************** */
+footer{background-color: #3d3939; color: #fff; padding: 80px 0;}
+.list li {
+    list-style: none;
+}
